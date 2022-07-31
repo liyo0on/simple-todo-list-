@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>simpl todo list</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/index.css" />
+    <script
+      src="https://kit.fontawesome.com/7a4da354ee.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body class="bg-dark container-sm" style="height: 100vh;">
+    <div>
+      <table class="formTodoPanel table table-hover table-light mt-5">
+        <thead>
+          <tr>
+            <th scope="col" class="text-center ">#</th>
+            <th scope="col" class="text-center">todo</th>
+            <th scope="col" style="width: 100px" class="text-center">process</th>
+            <th scope="col" class="text-center">remove</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row" class="counter">1</th>
+            <td class="my--todo">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro,
+              fugit.
+            </td>
+            <td class="process" style="cursor: pointer;">in-progress</td>
+            <td class="removeBtn text-center" style="cursor: pointer">
+              <i class="fa-solid fa-delete-left"></i>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <div>
+        <form class="d-flex flex-column container-sm p-0" >
+          <div>
+            <label for="exampleInputTodo" class="form-label text-light">YOUR TODO</label>
+            <input
+              type="text"
+              class="inputTOdo form-control"
+              id="exampleInputTodo"
+              placeholder="Enter you todo"
+            />
+          </div>
+          <HR></HR>
+          <div class="d-flex justify-content-center" style="width: 100%;">
+            <button type="submit" class="btnSubmitTodo btn btn-light d-flex justify-content-center" >Submit</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+      integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+      integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+      crossorigin="anonymous"
+    ></script>
+    <script src="java/index.js"></script>
+  </body>
+</html>
